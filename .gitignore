@@ -1,0 +1,31 @@
+# Файлы IntelliJ/Android Studio
+*.iml
+.idea/
+!.idea/gradle.xml
+!.idea/runConfigurations.xml
+
+# Gradle
+.gradle/
+build/
+/app/build/
+/app/release/
+*.apk
+*.aab
+
+# Локальные настройки
+local.properties
+secrets.properties
+
+# Нативные сборки
+.externalNativeBuild/
+.cxx/
+
+# Кеш и системные файлы
+.DS_Store
+Thumbs.db
+captures/
+
+# Ключи подписи (НИКОГДА не публиковать!)
+*.jks
+*.keystore
+*.keystore.bak
